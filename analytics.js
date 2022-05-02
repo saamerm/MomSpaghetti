@@ -16,7 +16,7 @@
  --------------------------------------------- */
  
   function pageViewed() {
-    var url = "https://script.google.com/macros/s/AKfycbzr1bbxCc_iE4n5VLii5C-NFoVaMxN01vt1npMYneuTcRXKrOoUdRrfsRbQ_fY7x0G9sQ/exec";
+    var url = "https://script.google.com/macros/s/AKfycbxzEJVBRmE-z7ZY4C6FRzxPn28TKW6mozP73FfPuVgXYgauG3_MnhroSoe5wVyE8eUkMg/exec";
     var myJSObject='{"Event": "' + "PageView: MomSpaghetti" + '"}';    
     postCall(url, myJSObject);
   }
